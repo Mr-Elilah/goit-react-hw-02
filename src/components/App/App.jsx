@@ -32,13 +32,9 @@ export default function App() {
     });
   };
 
-  useEffect(() => {
-    localStorage.setItem("feedback", JSON.stringify(feedback));
-  }, [feedback]);
-
   const totalFeedback = feedback.good + feedback.neutral + feedback.bad;
   const positiveFeedback =
-    Math.round(((feedback.good + feedback.neutral) / totalFeedback) * 100) || 0;
+    Math.round((feedback.good / totalFeedback) * 100) || 0;
 
   return (
     <>
