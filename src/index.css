@@ -39,21 +39,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-table {
-  width: 1200px;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-
-th {
-  color: azure;
-  font-weight: bold;
-  background-color: #262323;
-}

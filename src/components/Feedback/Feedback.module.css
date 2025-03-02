@@ -1,0 +1,10 @@
+.container {
+  padding: 0 30px 40px;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 18px;
+}
